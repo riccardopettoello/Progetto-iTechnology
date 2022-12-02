@@ -1,0 +1,75 @@
+.custom-text-primary {
+    color: #70D6FF;
+}
+
+.custom-bg-primary {
+    background-color: #70D6FF;
+}
+
+.custom-text-secondary {
+    color: #FF70A6;
+}
+
+.custom-bg-secondary {
+    background-color: #FF70A6;
+}
+
+.custom-text-tertiary {
+    color: #FF9770;
+}
+
+.custom-bg-tertiary {
+    background-color: #FF9770;
+}
+
+.custom-text-quaternary {
+    color: #FFD670;
+}
+
+.custom-bg-quaternary {
+    background-color: #FFD670;
+}
+
+.custom-text-quinquary {
+    color: #E9FF70;
+}
+
+.custom-bg-quinquary {
+    background-color: #E9FF70;
+}
+
+.custom-text-white {
+    color: #FFFFFF;
+}
+
+.custom-bg-white {
+    background-color: #FFFFFF;
+}
+
+.custom-text-black {
+    color: #000000;
+}
+
+.custom-bg-black {
+    background-color: #000000;
+}
+
+.custom-link-primary {
+    color: #00b7ff;
+}
+
+.custom-link-primary {
+    color: #ff1c73;
+}
+
+.custom-link-tertiary {
+    color: #ff640a;
+}
+
+.custom-link-quaternary {
+    color: #ff9e00;
+}
+
+.custom-link-quinquary {
+    color: #bfff00;
+}
