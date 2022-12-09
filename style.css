@@ -92,3 +92,18 @@ section {
 
     color: #000000;
 }
+
+.titolo-prodotto {
+    color: #70D6FF;;
+}
+
+li {
+    font-family: 'Open Sans';
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    /* or 75% */
+
+    color: #000000;
+}
