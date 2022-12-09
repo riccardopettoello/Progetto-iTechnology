@@ -107,3 +107,19 @@ li {
 
     color: #000000;
 }
+
+.titolo-sezioni {
+    text-align: center;
+}
+
+.testo-recensioni {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 78% */
+
+    color: #000000;
+
+}
