@@ -53,3 +53,42 @@ h1 {
     margin: auto;
     display: block;
 }
+
+h3 {
+    font-family: 'Poppins';
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 48px !important;
+    line-height: 60px !important;
+    /* identical to box height, or 58% */
+    letter-spacing: -0.01em !important;
+
+    color: #70D6FF;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 80px !important;
+    line-height: 78px !important;
+    /* identical to box height, or 98% */
+
+    color: #FF9770;
+
+}
+
+section {
+    margin: 10px 0px 50px 0px;
+}
+
+.descrizione-servizi {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 62% */
+
+    color: #000000;
+}
