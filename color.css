@@ -73,3 +73,13 @@
 .custom-link-quinquary {
     color: #bfff00;
 }
+
+:root {
+    --color-primary: #70D6FF;
+    --color-secondary: #FF70A6;
+    --color-tertiary: #FF9770;
+    --color-quaternary: #FFD670;
+    --color-quinquary: #E9FF70;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+}
