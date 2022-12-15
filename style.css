@@ -15,38 +15,34 @@
 
 h4 {
     font-family: 'Patrick Hand';
-    font-style: normal;
+    font-style: normal !important;
     font-weight: 400 !important;
     font-size: 48px !important;
     line-height: 65px !important;
-    /* identical to box height */
 
-    color: #FF70A6;
+    color: var(--color-secondary);
 
-    mix-blend-mode: normal !important;
+    mix-blend-mode: normal;
 }
 
 h1 {
     font-family: 'Poppins';
-    font-style: normal;
+    font-style: normal !important;
     font-weight: 600 !important;
     font-size: 90px !important;
     line-height: 78px !important;
-    /* or 81% */
 
-    color: #FFD670;
-
+    color: var(--color-quaternary);
 }
 
 .presentazione-iTechnology {
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 40px;
-    /* or 62% */
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 36px !important;
+    line-height: 40px !important;
 
-    color: #000000;
+    color: var(--color-black);
 }
 
 .center-image {
@@ -60,10 +56,10 @@ h3 {
     font-weight: 600 !important;
     font-size: 48px !important;
     line-height: 60px !important;
-    /* identical to box height, or 58% */
+
     letter-spacing: -0.01em !important;
 
-    color: #70D6FF;
+    color: var(--color-primary);
 }
 
 h2 {
@@ -72,29 +68,26 @@ h2 {
     font-weight: 500 !important;
     font-size: 80px !important;
     line-height: 78px !important;
-    /* identical to box height, or 98% */
 
-    color: #FF9770;
-
+    color: var(--color-tertiary);
 }
 
 section {
-    margin: 10px 0px 50px 0px;
+    margin: 10px 0px 100px 0px;
 }
 
 .descrizione-servizi {
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 40px;
-    /* or 62% */
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 36px !important;
+    line-height: 40px !important;
 
-    color: #000000;
+    color: var(--color-black);
 }
 
 .titolo-prodotto {
-    color: #70D6FF;;
+    color: var(--color-primary);;
 }
 
 li {
@@ -103,23 +96,136 @@ li {
     font-weight: 400 !important;
     font-size: 40px !important;
     line-height: 50px !important;
-    /* or 75% */
 
-    color: #000000;
+    color: var(--color-black);
 }
 
 .titolo-sezioni {
     text-align: center;
 }
 
+.titolo-informazioni {
+    margin-bottom: 130px;
+}
+
+.rettangolo-viola{
+    position: relative;
+    width: 267px;
+    height: 264px;
+
+    background: var(--color-secondary);
+}
+
+.sposta-basso{
+    position: relative;
+    display: block;
+    top:50px;
+}
+
+.sposta-alto{
+    position: relative;
+    display: block;
+    bottom: 90px;
+}
+
+@media (max-width: 1399px) {
+    .spazio-rettangolo{
+        margin-right: 140px !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .spazio-rettangolo{
+        margin-bottom: 100px !important;
+    }
+
+    .rettangolo-viola{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .sposta-basso, .sposta-alto{
+        position: relative;
+        display: block;
+        top: 0px;
+        bottom: 0px;
+    }
+}
+
+.testo-rettangoli {
+    font-family: 'Open Sans';
+    word-wrap: break-word !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 38px !important;
+    line-height: 60px !important;
+    text-align: center !important;
+
+    color: var(--color-black);
+}
+
+.rettanogolo-centro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 .testo-recensioni {
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 40px;
-    /* or 78% */
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 36px !important;
+    line-height: 40px !important;
 
-    color: #000000;
+    color: var(--color-black);
+}
 
+.testo-contatti {
+    font-family: 'Poppins';
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    line-height: 60px !important;
+
+    letter-spacing: -0.01em;
+
+    color: var(--color-primary);
+}
+
+[type="email"] {
+    width: 500px;
+    height: 30px;
+
+    background: var(--color-quaternary);
+}
+
+[type="submit"] {
+    position: relative;
+    right: 20px;
+    width: 150px;
+    height: 30px;
+
+    background: var(--color-primary);
+}
+
+.sfondo-footer {
+    background-color: var(--color-quaternary);
+}
+
+.informazioni {
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 78px !important;
+
+    text-align: center !important;
+
+    color: var(--color-black);
+}
+
+.spazio-rettangolo{
+    margin-right: 165px;
 }
